@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rafal</title>
+    <!-- Favicon -->
+    <link rel="icon" href="https://media.discordapp.net/attachments/961035798545850429/1376184024736731198/spike.jpg?ex=683466bf&is=6833153f&hm=19319c88d0d00e5b6b584c834e24cefd8e886c4f5bef033972ca9adf14f85144&=&format=webp&width=783&height=827" type="image/webp" />
+    <!-- Fonte Lilita One -->
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+        .full-screen-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Lilita One', cursive;
+            font-size: 5vw;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Imagem em tela cheia -->
+    <img 
+        src="https://media.discordapp.net/attachments/1310983426488274987/1373339971318054984/Screenshot_20250414_152127_Gallery.jpg?ex=6833f144&is=68329fc4&hm=5bd4dac3746af61cf5706444daccb5e8b93aeacb37ceea2830c29f1fac708914&=&format=webp&width=1260&height=756" 
+        alt="Tela Cheia" 
+        class="full-screen-image"
+    />
+    <!-- Texto centralizado -->
+    <div class="overlay">bah</div>
+</body>
+</html>
